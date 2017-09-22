@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="18" started-at="2017-09-22T18:13:04Z" finished-at="2017-09-22T18:13:04Z">
+    <groups>
+      <group name="group1">
+        <method signature="GroupTest.firstTest()[pri:0, instance:FirstTestNGexample.GroupTest@7c75222b]" name="firstTest" class="FirstTestNGexample.GroupTest"/>
+        <method signature="GroupTest.secondTest()[pri:0, instance:FirstTestNGexample.GroupTest@7c75222b]" name="secondTest" class="FirstTestNGexample.GroupTest"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test name="Command line test" duration-ms="18" started-at="2017-09-22T18:13:04Z" finished-at="2017-09-22T18:13:04Z">
+      <class name="FirstTestNGexample.TestNGDemo">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:FirstTestNGexample.TestNGDemo@34ce8af7]" name="beforeTest" is-config="true" duration-ms="7" started-at="2017-09-22T14:13:04Z" finished-at="2017-09-22T14:13:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:FirstTestNGexample.TestNGDemo@34ce8af7]" name="aftermethod" is-config="true" duration-ms="0" started-at="2017-09-22T14:13:04Z" finished-at="2017-09-22T14:13:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:FirstTestNGexample.TestNGDemo@34ce8af7]" name="beforemethod" is-config="true" duration-ms="0" started-at="2017-09-22T14:13:04Z" finished-at="2017-09-22T14:13:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:FirstTestNGexample.TestNGDemo@34ce8af7]" name="firstTest" duration-ms="0" started-at="2017-09-22T14:13:04Z" finished-at="2017-09-22T14:13:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:FirstTestNGexample.TestNGDemo@34ce8af7]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-09-22T14:13:04Z" finished-at="2017-09-22T14:13:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- FirstTestNGexample.TestNGDemo -->
+      <class name="FirstTestNGexample.GroupTest">
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:FirstTestNGexample.GroupTest@7c75222b]" name="firstTest" duration-ms="2" started-at="2017-09-22T14:13:04Z" finished-at="2017-09-22T14:13:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:FirstTestNGexample.GroupTest@7c75222b]" name="secondTest" duration-ms="1" started-at="2017-09-22T14:13:04Z" finished-at="2017-09-22T14:13:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+      </class> <!-- FirstTestNGexample.GroupTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
